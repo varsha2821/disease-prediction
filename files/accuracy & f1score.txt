@@ -1,0 +1,2 @@
+Accuracy: Accuracy measures the overall correctness of predictions made by the model. It calculates the ratio of correctly predicted instances to the total number of instances.
+F1 Score: The F1 score is a measure of a model's accuracy in terms of both precision and recall. It provides a balance between precision (the ability of the model to avoid false positives) and recall (the ability of the model to identify all relevant instances).

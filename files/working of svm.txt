@@ -1,0 +1,11 @@
+Here are the key principles behind the working of Support Vector Machine (SVM):
+
+Maximizing Margin: SVM aims to find the hyperplane that best separates the data points of different classes while maximizing the margin between the hyperplane and the nearest data points (support vectors). This margin represents the distance between the hyperplane and the closest data points of each class and ensures robust generalization to unseen data.
+
+Finding the Optimal Hyperplane: SVM searches for the optimal hyperplane by solving an optimization problem that involves minimizing the classification error and maximizing the margin. The decision boundary is determined by the support vectors, which are the data points closest to the hyperplane and influence its position.
+
+Kernel Trick: SVM can handle non-linearly separable data by mapping the input features into a higher-dimensional space using kernel functions such as polynomial, radial basis function (RBF), or sigmoid. The kernel trick allows SVM to find a linear decision boundary in the transformed feature space, even when the original data is not linearly separable in the input space.
+
+Soft Margin Classification: In cases where the data is not perfectly separable, SVM uses a soft margin approach that allows for some misclassification errors. The soft margin formulation introduces a penalty parameter (C) that balances the trade-off between maximizing the margin and minimizing the classification errors.
+
+Classification and Prediction: Once the optimal hyperplane is determined during the training phase, SVM can classify new data points by evaluating which side of the hyperplane they fall on. The decision function assigns new data points to one of the two classes based on their position relative to the hyperplane and the learned parameters from the training phase.
